@@ -1,0 +1,65 @@
+*{  /**con el aterisco las propiedades que pongamos se aplicanb a todo los elemento de este documentp*/
+    background-color: 237, 237, 237;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Raleway', sans-serif;
+} 
+
+
+
+
+/** estos es un comentarios en css */
+
+p {
+    color: black;
+    width: 300px;
+}
+
+h1 {
+    border: 1px solid black;
+    padding-left: 70px;  /**es el relleno que esta entre el contenido y el borde*/
+    margin: 30px;
+    font-weight: bold;
+    color: rgb(100, 64, 64);
+}
+
+
+/** Los elemento los tenemos que ver o pensar como box (cajas) */
+/**tambien podemos personalizar cada lado de: margin, padding...
+ejemplo:
+h1 {
+    border: 1px solid black;
+    padding: 5px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-rigth: 10px;}
+
+Con el padding podemos hacer lo mismo
+    */
+
+section {
+    width: 300px;
+    border: 5px solid grey;
+    padding: 50px;
+    margin: 10px;
+}
+
+#mi_parrafo {
+    color: purple;
+    font-size: 18px;           /**tamaño de letra*/
+    border: 5px solid gray; 
+    padding: 50px;
+    margin: 10px;
+        
+
+}
+
+.estaEsMiClase {
+    font-weight: bold;
+    color: rgb(0, 0, 102);
+    padding: 50px;
+    margin: 10px;
+}
+
+
